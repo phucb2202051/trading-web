@@ -1,0 +1,15 @@
+export const BANKS = [
+  "Vietcombank",
+  "Techcombank",
+  "BIDV",
+  "VietinBank",
+  "Agribank",
+  "MB Bank",
+  "Sacombank",
+  "ACB",
+  "TPBank",
+  "VPBank",
+  "Momo",
+  "ZaloPay",
+  "ShopeePay",
+];
