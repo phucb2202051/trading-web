@@ -134,6 +134,12 @@ onMounted(async () => {
 
         <div v-if="wallet">
           <p>
+            Wallet Id: 
+            <span class="text-green-400 font-bold">
+              {{ wallet.w_id }}
+            </span>
+          </p>
+          <p>
             💰 Số dư:
             <span class="text-green-400 font-bold">
               {{ formatMoney(wallet.w_balance) }}

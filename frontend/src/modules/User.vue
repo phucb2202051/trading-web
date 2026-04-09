@@ -203,7 +203,7 @@ onMounted(() => {
       </div>
 
       <p class="text-yellow-400">
-         ⚠️ Nội dung chuyển khoản: <b>User ID của bạn</b>
+         ⚠️ Nội dung chuyển khoản: <b>wallet + mã số ví của bạn</b>, ví dụ: <b>wallet22</b> , nếu không có hoặc sai nội dung, chúng tôi sẽ không thể cập nhật số dư cho bạn.
       </p>
 
       <!-- QR -->
@@ -218,7 +218,7 @@ onMounted(() => {
 
       <p class="text-gray-400 text-sm">
          Khi bạn muốn nạp tiền vào ví, hãy chuyển khoản đến tài khoản ngân hàng của chúng tôi
-         thông qua QR này với nội dung là <b>User ID của bạn</b>. Sau khi nhận được tiền, chúng tôi sẽ cập nhật số dư trong ví của bạn.
+         thông qua QR này với nội dung là <b>wallet + mã số ví của bạn</b>. Sau khi nhận được tiền, chúng tôi sẽ cập nhật số dư trong ví của bạn.
       </p>
 
 

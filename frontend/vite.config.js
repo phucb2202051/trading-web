@@ -3,11 +3,18 @@ import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue"; 
 import tailwindcss from "@tailwindcss/vite"; 
 import path from "path"; 
-export default defineConfig(
-   { plugins: 
-      [vue(), tailwindcss()], 
-      resolve: { 
-         alias: { "@": path.resolve(__dirname, "./src"), }, 
+
+export default defineConfig({
+   plugins: [vue(), tailwindcss()],
+
+   resolve: { 
+      alias: { 
+         "@": path.resolve(__dirname, "./src"), 
       }, 
+   },
+
+   server: {
+      host: true, // cho phép truy cập từ bên ngoài
+      allowedHosts: ['.trycloudflare.com'], // cho phép domain cloudflare
    }
-);
+});

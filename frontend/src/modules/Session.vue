@@ -177,6 +177,7 @@ onMounted(async () => {
           <div>💰 Giá: {{ formatPrice(s.ts_price) }}</div>
           <div>📦 Số lượng: {{ s.ts_num_of_item }}</div>
           <div>📊 Trạng thái: {{ s.status }}</div>
+          <div>🎮 Nick gửi: {{ s.ts_sender }}</div>
           <div>🎮 Nick nhận: {{ s.ts_receiver }}</div>
         </div>
       </div>
@@ -210,6 +211,7 @@ onMounted(async () => {
           <div>💰 Giá: {{ formatPrice(s.ts_price) }}</div>
           <div>📦 Số lượng: {{ s.ts_num_of_item }}</div>
           <div>📊 Trạng thái: {{ s.status }}</div>
+          <div>🎮 Nick gửi: {{ s.ts_sender }}</div>
           <div>🎮 Nick nhận: {{ s.ts_receiver }}</div>
 
          <div class="mt-3 space-x-2" v-if="s.status === 'Traded'">

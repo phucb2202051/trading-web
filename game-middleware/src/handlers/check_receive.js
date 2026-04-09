@@ -16,7 +16,6 @@ module.exports = async (req, res) => {
     });
 
     const trade = result.data?.[0];
-
     return res.send(trade ? `${trade.ts_id}` : "");
   } catch (err) {
     console.error("CHECK_RECEIVE ERROR:", err);
